@@ -1,7 +1,16 @@
-public class Circle {
+public class Circle extends Shape {
 
     private Point center;
+
     private int radius;
+
+    @Override
+    public String toString() {
+        return "Circle{" +
+                "center=" + center +
+                ", radius=" + radius +
+                '}';
+    }
 
     public Circle(Point center, int radius) {
         this.center = center;
@@ -26,6 +35,16 @@ public class Circle {
             System.out.println("Radius can't be negative");
         }else {
             this.radius = radius;
+
+        }
+    }
+
+    public int area(){
+        return Math.PI*thıs.Radıus*thıs.Radıus*
+    }
+
+    public int perimeter(){
+        return "Shape"{
 
         }
     }
